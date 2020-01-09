@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+            android:id="@+id/login_container"
+            android:layout_width="match_parent"
+                 android:layout_height="match_parent"/>
+    <!--<android.support.constraint.Guideline
+            android:id="@+id/guidelinefirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.50" />
+    <RelativeLayout
+            android:id="@+id/rl_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_bg"
+            app:layout_constraintTop_toTopOf="parent"
+
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:background="#ffffff"
+            app:layout_constraintTop_toBottomOf="@id/rl_first"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+    </RelativeLayout>
+    <android.support.constraint.Guideline
+            android:id="@+id/guidelinesecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.50" />
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            app:layout_constraintTop_toBottomOf="@id/rl_first"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+    </RelativeLayout>-->
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/rel_first"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:background="@drawable/login_bg"-->
+    <!--app:layout_constraintHeight_percent="0.5"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent">-->
+
+
+    <!--<RelativeLayout android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+
+    <!--&gt;-->
+    <!--<TextView-->
+    <!--android:id="@+id/txt_login"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/login"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_marginTop="@dimen/_10sdp"-->
+    <!--android:textSize="@dimen/_16sdp"-->
+    <!--android:layout_toLeftOf="@id/view"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:textColor="@color/black"-->
+
+    <!--/>-->
+    <!--<view-->
+    <!--android:id="@+id/view"-->
+    <!--android:layout_width="1dp"-->
+    <!--android:layout_height="@dimen/_40sdp"-->
+    <!--android:textColor="@color/button_color"-->
+    <!--android:layout_centerHorizontal="true"-->
+
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/signup"-->
+    <!--android:textSize="@dimen/_16sdp"-->
+    <!--android:layout_marginTop="@dimen/_10sdp"-->
+    <!--android:layout_toRightOf="@id/view"-->
+    <!--android:gravity="center"-->
+    <!--android:textColor="@color/button_color"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--/>-->
+    <!--</RelativeLayout>-->
+
+
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/rel_two"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="0dp"-->
+    <!--app:layout_constraintHeight_percent="0.5"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent">-->
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/rel_second"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="@dimen/_10sdp"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent">-->
+    <!--<TextView-->
+    <!--android:id="@+id/txt_country"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="@dimen/_14sdp"-->
+    <!--android:layout_marginTop="@dimen/_90sdp"-->
+    <!--android:text="@string/txt_country_code"-->
+    <!--/>-->
+    <!--<com.hbb20.CountryCodePicker-->
+    <!--android:id="@+id/country_code"-->
+    <!--android:layout_width="@dimen/_80sdp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/txt_country"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:padding="@dimen/_10sdp"-->
+    <!--android:textSize="@dimen/_20sdp">-->
+
+    <!--</com.hbb20.CountryCodePicker>-->
+    <!--<TextView-->
+    <!--android:id="@+id/txt_mobile"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Mobile Number"-->
+    <!--android:textSize="@dimen/_14sdp"-->
+    <!--android:layout_marginTop="@dimen/_100sdp"-->
+    <!--android:layout_marginLeft="@dimen/_10sdp"-->
+
+    <!--android:layout_toRightOf="@id/txt_country"-->
+
+    <!--android:layout_alignParentEnd="true"/>-->
+    <!--<EditText-->
+
+    <!--android:id="@+id/edt_mobile"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/txt_mobile"-->
+    <!--android:layout_marginLeft="@dimen/_10sdp"-->
+    <!--android:layout_toRightOf="@id/country_code"-->
+    <!--android:focusable="true"-->
+    <!--android:textSize="@dimen/_14sdp"-->
+    <!--android:layout_alignParentEnd="true"-->
+
+    <!--/>-->
+
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_signIn"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/_50sdp"-->
+    <!--android:text="@string/btn_sign_in"-->
+    <!--android:textSize="@dimen/_18sdp"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:background="@drawable/button_bg"/>-->
+    <!--</RelativeLayout>-->
+
+    <!--</RelativeLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
